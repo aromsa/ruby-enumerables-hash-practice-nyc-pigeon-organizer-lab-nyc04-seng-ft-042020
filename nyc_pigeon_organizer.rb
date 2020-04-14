@@ -12,9 +12,10 @@ def nyc_pigeon_organizer(data)
     memo
       value.each do |name|
       end
+      p pigeon_names
    end
 end
-p pigeon_names
+
  
  
 #     end
