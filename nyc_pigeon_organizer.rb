@@ -20,7 +20,7 @@ data.each do |key, value|
   end
   # names_hash
 end
-names_hash
+# names_hash
   
 #   data.reduce({}) do |memo, (key, value)|
 #   p memo
