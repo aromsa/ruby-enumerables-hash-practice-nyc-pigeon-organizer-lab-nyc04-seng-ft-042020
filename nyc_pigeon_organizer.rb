@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
           
         # names_hash = {name => {k => [key]}}
         end
-        if !names_hash[name][key] = []
+        if !names_hash[name][key]
+          names_hash[name][key] == []
       end
     end
   end
