@@ -11,7 +11,7 @@ name_keys = data.reduce(nil) do |memo, (key, value)|
     memo = new_keys[0] if new_keys[0] <= memo
     memo
   # end
-#p name_keys
+
   
 #   data.reduce({}) do |memo, (key, value)|
 #   p memo
