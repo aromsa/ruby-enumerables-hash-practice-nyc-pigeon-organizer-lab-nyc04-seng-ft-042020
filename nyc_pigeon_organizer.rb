@@ -1,7 +1,7 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  names_hash = {}
+  names_hash = !{}
   data.each do |key, value|
     value.each do |k, v|
       v.each do |name|
