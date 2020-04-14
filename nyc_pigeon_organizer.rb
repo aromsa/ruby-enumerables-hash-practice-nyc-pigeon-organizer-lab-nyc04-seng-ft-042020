@@ -7,6 +7,7 @@ data.each do |key, value|
   value.each do |k, v|
   #binding.pry
     v.each do |name|
+      binding.pry
       names_hash = {name: v}
       
       
