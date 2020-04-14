@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     value.each do |k, v|
       v.each do |name|
         if !names_hash[name]
-          names_hash[name] == name
+          names_hash[name] == {}
         # names_hash = {name => {k => [key]}}
         end
       end
