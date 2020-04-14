@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
 data.each do |key, value|
   value.each do |k, v|
   #binding.pry
+    v.each do
     # memo = value[0] if !memo
     # new_keys = value[0]
     # memo = new_keys[0] if new_keys[0] <= memo
