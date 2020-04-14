@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     end
     # names_hash
   end
-  names_hash
+  #names_hash
 end
 
 
