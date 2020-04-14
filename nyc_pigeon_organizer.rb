@@ -10,6 +10,7 @@ name_keys = data.reduce(nil) do |memo, (key, value)|
     new_keys = value[0]
     memo = new_keys[0] if new_keys[0] <= memo
     memo
+  end
 
   
 #   data.reduce({}) do |memo, (key, value)|
