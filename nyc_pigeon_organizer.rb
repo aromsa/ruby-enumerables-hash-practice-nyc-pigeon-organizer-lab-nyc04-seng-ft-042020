@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
     # names_hash
   end
   #names_hash
+  nyc_pigeon_organizer
 end
 
 
