@@ -1,12 +1,21 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  names_hash = {}
-  data.each do |key, value|
-    value.each do |k, v|
-      v.each do |name|
-        names_hash = {name => {k => [key]}}
+#   names_hash = {}
+#   data.each do |key, value|
+#     value.each do |k, v|
+#       v.each do |name|
+#         names_hash = {name => {k => [key]}}
 
+  data.reduce({}) do |memo, (key, value)|
+  memo[key] = value.sort
+  memo
+    
+end
+ 
+p bands
+p sorted_member_list
+ 
  
     end
   
