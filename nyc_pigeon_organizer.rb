@@ -3,8 +3,6 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   binding.pry
   names_hash = {}
-  # data.each({})
-  
 data.each do |key, value|
     memo = value[0] if !memo
     new_keys = value[0]
