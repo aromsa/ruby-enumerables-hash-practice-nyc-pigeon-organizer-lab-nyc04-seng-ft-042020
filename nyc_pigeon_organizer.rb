@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
     memo
       value.each do |name|
         names = {name.length => {key.length => [value.length]}}
-        #binding.pry
+        binding.pry
       end
   end
   pigeon_names
