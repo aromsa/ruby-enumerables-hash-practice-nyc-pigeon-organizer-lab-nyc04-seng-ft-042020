@@ -7,8 +7,11 @@ def nyc_pigeon_organizer(data)
       v.each do |name|
         #names_hash = {name: {k: [key]}}
    
-#   hash[:a] = 'a'
-# hash[:a]
+# if shipping_manifest["top hat"]
+#   shipping_manifest["top hat"] += 1
+# else
+#   shipping_manifest["top hat"] = 1
+# end
  
     end
     names_hash = {name: {k: [key]}}
