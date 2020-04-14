@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
     memo[key] = value
     memo
       value.each do |name|
-        pigeon_names = {name => {value => [key]}}
+        pigeon_names = {name => {key => [value]}}
       end
       # pigeon_names
    end
