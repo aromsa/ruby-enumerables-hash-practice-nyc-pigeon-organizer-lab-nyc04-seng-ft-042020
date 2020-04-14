@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |k, v|
       v.each do |name|
-        names_hash[0] = name
+        name = names_hash[0]
    
 #   hash[:a] = 'a'
 # hash[:a]
