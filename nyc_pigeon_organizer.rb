@@ -14,7 +14,8 @@ def nyc_pigeon_organizer(data)
   pigeon_names = data.reduce({}) do |memo, (key, value)|
     memo[key] = value
     memo
-      value.each do |name|
+    value.each do |k, v|
+      v.each do |name|
         names = {name.length => {key.length => [value.length]}}
         binding.pry
       end
