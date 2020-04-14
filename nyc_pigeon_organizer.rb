@@ -8,7 +8,7 @@ data.each do |key, value|
   #binding.pry
     v.each do |name|
       binding.pry
-      names_hash = {name: {k: key}
+      names_hash = {name: {k: key}}
       
       
     # memo = value[0] if !memo
