@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   # binding.pry
   names_hash = {}
 data.each do |key, value|
-  value.each do |key, value|
+  value.each do |k, v|
   binding.pry
     # memo = value[0] if !memo
     # new_keys = value[0]
