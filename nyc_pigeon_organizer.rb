@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |k, v|
       v.each do |name|
-        #names_hash = {name: {k: [key]}}
+        names_hash = {name: {k: [key]}}
    
 # if shipping_manifest["top hat"]
 #   shipping_manifest["top hat"] += 1
@@ -14,7 +14,6 @@ def nyc_pigeon_organizer(data)
 # end
  
     end
-    names_hash = {name: {k: [key]}}
   end
 end
 
