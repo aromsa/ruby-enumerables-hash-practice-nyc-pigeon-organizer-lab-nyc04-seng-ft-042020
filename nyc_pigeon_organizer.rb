@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
         #binding.pry
       end
    end
-  pigeon_names
+  names
 end
 
 
