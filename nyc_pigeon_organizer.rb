@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
 #       v.each do |name|
 #         names_hash = {name => {k => [key]}}
 
-  data.reduce({}) do |memo, (key, value)|
+  pigeon_names = data.reduce({}) do |memo, (key, value)|
   memo[key] = value.sort
   memo
     value.each do |name|
