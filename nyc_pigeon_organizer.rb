@@ -15,9 +15,9 @@ def nyc_pigeon_organizer(data)
       end
       # pigeon_names
    end
-  # pigeon_names
+  pigeon_names
 end
-pigeon_names
+
 
  
  
