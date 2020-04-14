@@ -14,9 +14,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
- 
-p bands
-p sorted_member_list
+p pigeon_names
  
  
     end
