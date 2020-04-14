@@ -2,10 +2,10 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   names_hash = {}
-data.each do |key, value|
-  value.each do |k, v|
-    v.each do |name|
-      names_hash = {name: {k: [key]}}
+  data.each do |key, value|
+    value.each do |k, v|
+      v.each do |name|
+        names_hash = {name: {k: [key]}}
    
  
     end
