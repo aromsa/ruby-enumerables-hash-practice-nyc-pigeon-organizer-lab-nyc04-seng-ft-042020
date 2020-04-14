@@ -3,9 +3,9 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   binding.pry
   names_hash = {}
-  data.each({})
+  # data.each({})
   
-name_keys = data.reduce(nil) do |memo, (key, value)|
+data.each(nil) do |memo, (key, value)|
     memo = value[0] if !memo
     new_keys = value[0]
     memo = new_keys[0] if new_keys[0] <= memo
