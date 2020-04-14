@@ -16,8 +16,8 @@ data.each do |key, value|
     # memo = new_keys[0] if new_keys[0] <= memo
     # memo
     end
-    names_hash
   end
+  names_hash
 end
   
 #   data.reduce({}) do |memo, (key, value)|
