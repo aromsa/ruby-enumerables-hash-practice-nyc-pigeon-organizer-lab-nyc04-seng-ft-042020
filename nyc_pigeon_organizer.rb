@@ -1,26 +1,21 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  # binding.pry
   names_hash = {}
 data.each do |key, value|
   value.each do |k, v|
-  #binding.pry
     v.each do |name|
-      #binding.pry
       names_hash = {name: {k: [key]}}
-      #binding.pry
-      
-    # memo = value[0] if !memo
-    # new_keys = value[0]
-    # memo = new_keys[0] if new_keys[0] <= memo
-    # memo
+   
+ 
     end
-    # names_hash
   end
-  # names_hash
 end
-# names_hash
+
+
+
+
+
   
 #   data.reduce({}) do |memo, (key, value)|
 #   p memo
