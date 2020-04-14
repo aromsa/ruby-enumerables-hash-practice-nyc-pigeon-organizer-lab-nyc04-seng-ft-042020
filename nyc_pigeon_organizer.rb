@@ -8,8 +8,8 @@ def nyc_pigeon_organizer(data)
 #p name_keys
   
   data.reduce({}) do |memo, (key, value)|
-  memo
-  key = new_keys
+  p memo
+  p key = new_keys
   p value
   memo
   end
