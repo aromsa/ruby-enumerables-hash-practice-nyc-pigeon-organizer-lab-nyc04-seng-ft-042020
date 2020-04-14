@@ -12,7 +12,7 @@ data.each do |key, value|
     # new_keys = value[0]
     # memo = new_keys[0] if new_keys[0] <= memo
     # memo
-  end
+    end
   end
 end
   
