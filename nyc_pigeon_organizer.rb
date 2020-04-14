@@ -7,16 +7,16 @@ def nyc_pigeon_organizer(data)
 #       v.each do |name|
 #         names_hash = {name => {k.length => [key]}}
 
-  pigeon_names = data.reduce({}) do |memo, (key, value)|
-    memo[key] = value
-    memo
-      value.each do |name|
-        names = {name => {key => [value]}}
-        #binding.pry
-      end
-   end
-  pigeon_names
-end
+#   pigeon_names = data.reduce({}) do |memo, (key, value)|
+#     memo[key] = value
+#     memo
+#       value.each do |name|
+#         names = {name => {key => [value]}}
+#         #binding.pry
+#       end
+#   end
+#   pigeon_names
+# end
 
 
  
