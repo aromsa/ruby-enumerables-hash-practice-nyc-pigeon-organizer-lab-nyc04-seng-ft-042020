@@ -13,6 +13,7 @@ data.each do |key, value|
     # memo = new_keys[0] if new_keys[0] <= memo
     # memo
   end
+  end
 end
   
 #   data.reduce({}) do |memo, (key, value)|
