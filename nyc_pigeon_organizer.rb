@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  
+  data.each({})
   
 #   name_keys = data.reduce(nil) do |memo, (key, value)|
 #     memo = value[0] if !memo
