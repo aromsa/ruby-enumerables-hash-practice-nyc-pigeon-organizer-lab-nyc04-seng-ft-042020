@@ -13,8 +13,9 @@ def nyc_pigeon_organizer(data)
       value.each do |name|
         pigeon_names = {name => {value => [key]}}
       end
-      pigeon_names
+      # pigeon_names
    end
+   pigeon_names
 end
 
  
