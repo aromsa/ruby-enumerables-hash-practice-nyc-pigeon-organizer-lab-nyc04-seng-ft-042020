@@ -2,6 +2,7 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   binding.pry
+  names_hash = {}
   data.each({})
   
 #   name_keys = data.reduce(nil) do |memo, (key, value)|
