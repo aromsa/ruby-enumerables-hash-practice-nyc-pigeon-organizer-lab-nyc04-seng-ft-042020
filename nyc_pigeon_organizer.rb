@@ -13,8 +13,9 @@ def nyc_pigeon_organizer(data)
     end
     # names_hash = {name: {k: [key]}}
   end
-  names_hash = {name: {k: [key]}}
+  #names_hash = {name: {k: [key]}}
 end
+names_hash = {name: {k: [key]}}
 
 
 
