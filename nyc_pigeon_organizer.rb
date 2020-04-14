@@ -11,11 +11,10 @@ def nyc_pigeon_organizer(data)
 # hash[:a]
  
     end
-    # names_hash = {name: {k: [key]}}
+    names_hash = {name: {k: [key]}}
   end
-  #names_hash = {name: {k: [key]}}
 end
-names_hash = {name: {k: [key]}}
+
 
 
 
